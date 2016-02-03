@@ -1,0 +1,43 @@
+@font-face {
+  font-family: '8bitoperator';
+  font-style: normal;
+  font-weight: normal;
+  src:	url('http://vignette3.wikia.nocookie.net/heliosanctus/images/4/4f/8bitoperator.eot?') format('embedded-opentype'),
+  local('8bitoperator JVE Normal'),
+  url('http://vignette4.wikia.nocookie.net/heliosanctus/images/8/8a/8bitoperator.woff') format('woff');
+}
+
+html {
+    cursor: url("http://static.tumblr.com/eb8a3957941471d6912a9e2149dc839b/6u22qlx/qRPo0qc8v/tumblr_static_4fcx8p0icomccckgs8o44g00s.png"), auto;
+}
+
+body {
+  color: white;
+  background-color: black;
+  font-family: "8bitoperator", monospace;
+  margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+
+a {
+  border-style: solid;
+  color: yellow;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+a:active, a:hover {
+  color: orange;
+  cursor: url("http://vignette2.wikia.nocookie.net/undertale/images/c/c0/Spr_heartblue_0.png/revision/latest?cb=20151029225654"), auto;
+}
