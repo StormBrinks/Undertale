@@ -16,6 +16,7 @@ body {
   background-color: black;
   font-family: "8bitoperator", monospace;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -32,12 +33,13 @@ p {
 
 a {
   border-style: solid;
-  color: yellow;
+  color: orange;
   text-decoration: none;
   margin-left: 100px;
+  font-size: 20px;
 }
 
 a:active, a:hover {
-  color: orange;
+  color: yellow;
   cursor: url("http://vignette2.wikia.nocookie.net/undertale/images/c/c0/Spr_heartblue_0.png/revision/latest?cb=20151029225654"), auto;
 }
